@@ -1,0 +1,11 @@
+mkdir testdir
+ls testdir
+touch testdir/file1.txt
+touch testdir/file2.txt
+ls testdir
+mv testdir/file2.txt testdir/file3.txt
+ls testdir/file3.txt
+rm -f testdir/file3.txt
+ls testdir
+rm -rf testdir
+exit

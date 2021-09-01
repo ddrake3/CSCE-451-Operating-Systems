@@ -1,0 +1,7 @@
+mkdir testdir
+touch testdir/file1.txt testdir/file2.txt testdir/file3.txt
+ls testdir > testdir/list.txt
+cat < testdir/list.txt > testdir/list2.txt
+cat < testdir/list2.txt
+rm -rf testdir
+exit

@@ -1,0 +1,3 @@
+Ambiguous output redirect.
+Invalid NULL command
+Ambiguous input redirect.

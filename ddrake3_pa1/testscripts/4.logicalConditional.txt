@@ -1,0 +1,10 @@
+mkdir testdir
+touch testdir/file1.txt testdir/file2.txt testdir/file3.txt
+ls testdir/file4.txt && echo "(and) You should not be seeing this"
+ls testdir/file3.txt && echo "(and) you should be seeing this"
+ls testdir/file4.txt || echo "(or) you should be seeing this"
+ls testdir/file3.txt || echo "(or) you should not be seeing this"
+ls testdir/file4.txt ; echo "(anyways) you should be seeing this"
+ls testdir/file3.txt ; echo "(anyways) you should be seeing this"
+rm -rf testdir
+exit

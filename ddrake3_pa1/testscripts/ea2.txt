@@ -1,0 +1,5 @@
+file1.txt
+file2.txt
+file3.txt
+list.txt
+the end of command

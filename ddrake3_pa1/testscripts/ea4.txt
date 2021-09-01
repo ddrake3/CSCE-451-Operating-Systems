@@ -1,0 +1,10 @@
+ls: cannot access 'testdir/file4.txt': No such file or directory
+testdir/file3.txt
+"(and) you should be seeing this"
+ls: cannot access 'testdir/file4.txt': No such file or directory
+"(or) you should be seeing this"
+testdir/file3.txt
+ls: cannot access 'testdir/file4.txt': No such file or directory
+"(anyways) you should be seeing this"
+testdir/file3.txt
+"(anyways) you should be seeing this"
