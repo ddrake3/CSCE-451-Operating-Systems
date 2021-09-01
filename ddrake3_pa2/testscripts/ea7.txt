@@ -1,0 +1,21 @@
+--------------- and ------------------------
+ls: cannot access 'testdir/file4.txt': No such file or directory
+testdir/file3.txt
+ls: cannot access 'testdir/file4.txt': No such file or directory
+testdir/file3.txt
+testdir/file2.txt
+"(and) you should be seeing this"
+--------------- or ------------------------
+ls: cannot access 'testdir/file4.txt': No such file or directory
+testdir/file3.txt
+testdir/file3.txt
+ls: cannot access 'testdir/file5.txt': No such file or directory
+ls: cannot access 'testdir/file4.txt': No such file or directory
+"(or) you should be seeing this"
+-------------- anyways -------------------
+ls: cannot access 'testdir/file4.txt': No such file or directory
+testdir/file3.txt
+"(anyways) you should be seeing this"
+testdir/file3.txt
+testdir/file2.txt
+"(anyways) you should be seeing this"

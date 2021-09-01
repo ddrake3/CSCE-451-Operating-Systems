@@ -1,0 +1,8 @@
+mkdir testdir
+touch testdir/file1.txt testdir/file2.txt testdir/newfile3.txt
+ls -1 testdir > testdir/list.txt
+cat testdir/list.txt
+ls -1 testdir | cat | grep file3.txt
+cat testdir/list.txt | grep file3 | grep new
+rm -rf testdir
+exit

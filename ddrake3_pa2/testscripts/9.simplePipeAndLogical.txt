@@ -1,0 +1,8 @@
+mkdir testdir
+touch testdir/file1.txt testdir/file2.txt testdir/file3.txt
+ls -1 testdir | grep file1.txt && echo "(and) You should be seeing this"
+ls -1 testdir | grep file5.txt && echo "(and) You should not be seeing this"
+ls -1 testdir | grep file1.txt || echo "(or) You should not be seeing this"
+ls -1 testdir | grep file5.txt || echo "(or) You should be seeing this"
+rm -rf testdir
+exit

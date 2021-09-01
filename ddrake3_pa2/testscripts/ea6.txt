@@ -1,0 +1,6 @@
+file1.txt
+file2.txt
+file3.txt
+testdir/file3.txt
+testdir/file2.txt
+testdir/file3.txt
